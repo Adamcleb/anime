@@ -14,13 +14,19 @@ color: var(--branco-principal);
 
 
 
-* {
+*   {
 
   margin: 0;
   padding: 0;
 }
 
-.principal {
+.principal{
 
-  background-image: url("anime.png")
+background-image: url("anime.png"); 
+background-repeat: no-repeat;
+background-size: contain
+}
+
+.conteiner {
+  height: 100vh;
 }
