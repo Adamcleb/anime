@@ -3,6 +3,7 @@
   --cinza-secundario: #C0C0C0;
   --botao-azul: #167BF7;
   --cor-de-fundo: #00030C;
+  --fonte-principal:'inter';
 }
 
 body {
@@ -10,6 +11,9 @@ body {
 background-color: var(--cor-de-fundo);
 color: var(--branco-principal);
 font-family: 'DM Sans', sans-serif;
+font-family: var(--fonte-principal);
+font-size: 16px;
+font-weight: 400;
 }
 
 
@@ -24,7 +28,9 @@ font-family: 'DM Sans', sans-serif;
 
 background-image: url("anime.png"); 
 background-repeat: no-repeat;
-background-size: contain
+background-size: contain;
+align-items: center;
+text-align: center;
 }
 
 .conteiner {
@@ -39,9 +45,32 @@ background-size: contain
   padding: 1em;
   color: var(--branco-principal);
   display: block;
+  text-decoration: none;
+  margin-bottom: 1em;
 }
 
 .botao_secundario{
 background-color: transparent;
 border: 2px solid var(--branco-principal);
 }
+
+.conteiner__aviso {
+
+font-size: 12px;
+color: var(--cinza-secundario);
+}
+
+.conteiner__titulo {
+
+font-size: 28px;
+font-weight: 700;
+}
+.conteiner__imagem {
+
+  margin: 1em o 2em 0;
+}
+.conteiner__caixa{
+
+  margin: 0 6em;
+}
+
